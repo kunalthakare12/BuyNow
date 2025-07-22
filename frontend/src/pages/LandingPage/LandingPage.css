@@ -1,0 +1,33 @@
+.landing-container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background: linear-gradient(to right, #0f2027, #203a43, #2c5364); */
+}
+
+.landing-search-wrapper {
+  width: 100%;
+  padding: 80px 5% 20px; 
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.product-grid-landing {
+  width: 90%;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.view-all-button {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+  display: none;
+}

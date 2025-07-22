@@ -1,0 +1,83 @@
+.product-details-container {
+    padding: 40px;
+    margin-top: 20px;
+    color: white;
+}
+
+.image-card {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+.main-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.thumbnail-images {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+
+.thumbnail {
+    width: 50px; 
+    height: 50px;
+    cursor: pointer;
+}
+
+.thumbnail:hover {
+    border: 2px solid #007bff;
+}
+
+
+.white-select {
+    width: 200px !important; 
+    background-color: white !important;
+}
+
+
+.buy-now {
+    width: 220px !important; 
+    font-size: 16px;
+}
+
+.quantity-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100px; 
+    background-color: #333;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.quantity-control .MuiIconButton-root {
+    color: white !important;
+    font-size: 18px;
+}
+
+.quantity-control span {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .quantity-control {
+        width: 160px;
+        gap: 6px;
+        padding: 5px;
+    }
+
+    .quantity-control .MuiIconButton-root {
+        font-size: 16px;
+    }
+
+    .quantity-control span {
+        font-size: 16px;
+    }
+}
