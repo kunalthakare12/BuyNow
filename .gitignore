@@ -9,11 +9,11 @@ frontend/.env
 # Logs
 *.log
 
-# Build output (Vite builds to dist/)
+# Build output 
 frontend/dist/
 
 # System files
 .DS_Store
 
-# Editor settings (optional)
+# Editor settings 
 .vscode/
